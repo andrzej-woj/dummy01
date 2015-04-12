@@ -1770,5 +1770,498 @@
             "annotations",
             "controllers"
         ]
+    },
+    {
+        "name": "mopa/composer-bridge",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phiamo/MopaComposerBridge.git",
+            "reference": "6f64e2f626bcdf2a6cab5d5c1be1d46a53905c13"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phiamo/MopaComposerBridge/zipball/6f64e2f626bcdf2a6cab5d5c1be1d46a53905c13",
+            "reference": "6f64e2f626bcdf2a6cab5d5c1be1d46a53905c13",
+            "shasum": ""
+        },
+        "require": {
+            "symfony/class-loader": ">=2.0.0",
+            "symfony/console": ">=2.0.0"
+        },
+        "time": "2015-02-23 10:26:44",
+        "type": "symfony-bridge",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mopa\\Bridge\\Composer": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Community contributions",
+                "homepage": "https://github.com/phiamo/MopaComposerBridge/contributors"
+            },
+            {
+                "name": "Philipp A. Mohrenweiser",
+                "email": "phiamo@googlemail.com"
+            }
+        ],
+        "description": "Symfony2 Composer Bridge",
+        "homepage": "http://bootstrap.mohrenweiserpartner.de",
+        "keywords": [
+            "Symfony2",
+            "composer"
+        ]
+    },
+    {
+        "name": "mopa/bootstrap-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Mopa/Bundle/BootstrapBundle",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phiamo/MopaBootstrapBundle.git",
+            "reference": "818b0f47ebd352559950e9a64431ff9472e8a9dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phiamo/MopaBootstrapBundle/zipball/818b0f47ebd352559950e9a64431ff9472e8a9dd",
+            "reference": "818b0f47ebd352559950e9a64431ff9472e8a9dd",
+            "shasum": ""
+        },
+        "require": {
+            "mopa/composer-bridge": "~1.3",
+            "symfony/console": "~2.3",
+            "symfony/form": "~2.3|~3.0",
+            "symfony/framework-bundle": "~2.3",
+            "symfony/twig-bundle": "~2.3|~3.0"
+        },
+        "suggest": {
+            "craue/formflow-bundle": "~2.0",
+            "knplabs/knp-menu-bundle": "~2.0@dev",
+            "knplabs/knp-paginator-bundle": "~2.3",
+            "mopa/bootstrap-sandbox-bundle": "~2.3",
+            "twbs/bootstrap": ">2.0,<4.0-dev",
+            "twbs/bootstrap-sass": "v3.1.1"
+        },
+        "time": "2015-04-10 09:34:23",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Mopa\\Bundle\\BootstrapBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Community contributions",
+                "homepage": "https://github.com/phiamo/MopaBootstrapBundle/contributors"
+            },
+            {
+                "name": "Philipp A. Mohrenweiser",
+                "email": "phiamo@googlemail.com"
+            }
+        ],
+        "description": "Easy integration of twitters bootstrap into symfony2",
+        "keywords": [
+            "bootstrap",
+            "bootstrap form",
+            "extra form",
+            "form",
+            "template"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "ff88cf9335b10926d2a190cb8042ac65f874a2be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/ff88cf9335b10926d2a190cb8042ac65f874a2be",
+            "reference": "ff88cf9335b10926d2a190cb8042ac65f874a2be",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2015-04-11 00:02:33",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "knplabs/knp-components",
+        "version": "1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/KnpLabs/knp-components.git",
+            "reference": "6d091c2f16eec2769db38f38e08c7bd5847ce072"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/6d091c2f16eec2769db38f38e08c7bd5847ce072",
+            "reference": "6d091c2f16eec2769db38f38e08c7bd5847ce072",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/mongodb-odm": "~1.0@beta",
+            "doctrine/orm": "~2.4",
+            "phpunit/phpunit": "~4.2",
+            "ruflin/elastica": "~1.0",
+            "symfony/event-dispatcher": "~2.5"
+        },
+        "suggest": {
+            "doctrine/common": "to allow usage pagination with Doctrine ArrayCollection",
+            "doctrine/mongodb-odm": "to allow usage pagination with Doctrine ODM MongoDB",
+            "doctrine/orm": "to allow usage pagination with Doctrine ORM",
+            "propel/propel1": "to allow usage pagination with Propel ORM",
+            "ruflin/Elastica": "to allow usage pagination with ElasticSearch Client",
+            "solarium/solarium": "to allow usage pagination with Solarium Client"
+        },
+        "time": "2014-10-06 10:38:10",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Knp\\Component": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "KnpLabs Team",
+                "homepage": "http://knplabs.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://github.com/KnpLabs/knp-components/contributors"
+            }
+        ],
+        "description": "Knplabs component library",
+        "homepage": "http://github.com/KnpLabs/knp-components",
+        "keywords": [
+            "components",
+            "knp",
+            "knplabs",
+            "pager",
+            "paginator"
+        ]
+    },
+    {
+        "name": "knplabs/knp-paginator-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
+            "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
+            "reference": "5990419ed9cfb54fac4a4b63056c3cd2ceb2f14a",
+            "shasum": ""
+        },
+        "require": {
+            "knplabs/knp-components": "~1.2",
+            "php": ">=5.3.3",
+            "symfony/framework-bundle": "~2.0",
+            "twig/twig": "~1.5"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.4"
+        },
+        "time": "2015-02-03 02:04:01",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Knp\\Bundle\\PaginatorBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "KnpLabs Team",
+                "homepage": "http://knplabs.com"
+            },
+            {
+                "name": "Symfony2 Community",
+                "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle/contributors"
+            }
+        ],
+        "description": "Paginator bundle for Symfony2 to automate pagination and simplify sorting and other features",
+        "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle",
+        "keywords": [
+            "Symfony2",
+            "bundle",
+            "knp",
+            "knplabs",
+            "pager",
+            "pagination",
+            "paginator"
+        ]
+    },
+    {
+        "name": "knplabs/knp-menu",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/KnpLabs/KnpMenu.git",
+            "reference": "c40075bea26f63dd5b81ca5b3cdd2b54d38e811f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/c40075bea26f63dd5b81ca5b3cdd2b54d38e811f",
+            "reference": "c40075bea26f63dd5b81ca5b3cdd2b54d38e811f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "pimple/pimple": "1.0.*",
+            "silex/silex": "1.0.*",
+            "twig/twig": ">=1.2,<2.0-dev"
+        },
+        "suggest": {
+            "pimple/pimple": "for the built-in implementations of the menu provider and renderer provider",
+            "silex/silex": "for the integration with your silex application",
+            "twig/twig": "for the TwigRenderer and the integration with your templates"
+        },
+        "time": "2015-03-20 12:35:38",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Knp\\Menu\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christophe Coevoet",
+                "email": "stof@notk.org"
+            },
+            {
+                "name": "Knplabs",
+                "homepage": "http://knplabs.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://github.com/KnpLabs/KnpMenu/contributors"
+            }
+        ],
+        "description": "An object oriented menu library",
+        "homepage": "http://knplabs.com",
+        "keywords": [
+            "menu",
+            "tree"
+        ]
+    },
+    {
+        "name": "knplabs/knp-menu-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
+            "reference": "2a2e1295c8f39f39875343934af159957bcdcc06"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/2a2e1295c8f39f39875343934af159957bcdcc06",
+            "reference": "2a2e1295c8f39f39875343934af159957bcdcc06",
+            "shasum": ""
+        },
+        "require": {
+            "knplabs/knp-menu": "~2.0",
+            "symfony/framework-bundle": "~2.3"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.4"
+        },
+        "time": "2015-03-27 10:59:04",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Knp\\Bundle\\MenuBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christophe Coevoet",
+                "email": "stof@notk.org"
+            },
+            {
+                "name": "KnpLabs",
+                "homepage": "http://knplabs.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://github.com/KnpLabs/KnpMenuBundle/contributors"
+            }
+        ],
+        "description": "This bundle provides an integration of the KnpMenu library",
+        "keywords": [
+            "menu"
+        ]
+    },
+    {
+        "name": "craue/formflow-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Craue/FormFlowBundle",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/craue/CraueFormFlowBundle.git",
+            "reference": "0c288e46cca7d088479074723b70b09327043fbd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/0c288e46cca7d088479074723b70b09327043fbd",
+            "reference": "0c288e46cca7d088479074723b70b09327043fbd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "symfony/form": "~2.3",
+            "symfony/http-kernel": "~2.3",
+            "symfony/translation": "~2.3",
+            "symfony/yaml": "~2.3"
+        },
+        "require-dev": {
+            "doctrine/common": "~2.3",
+            "phpunit/phpunit": "~4.1",
+            "sensio/framework-extra-bundle": "~2.1|~3.0",
+            "symfony/symfony": "~2.3"
+        },
+        "time": "2015-04-01 10:54:09",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Craue\\FormFlowBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christian Raue",
+                "email": "christian.raue@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://github.com/craue/CraueFormFlowBundle/contributors"
+            }
+        ],
+        "description": "Multi-step forms for your Symfony2 project.",
+        "homepage": "https://github.com/craue/CraueFormFlowBundle",
+        "keywords": [
+            "Symfony2",
+            "form"
+        ]
     }
 ]
